@@ -1,0 +1,36 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    import java.util.Scanner;
+
+    public class Main {
+
+        public static void main(String[] args) {
+            Scanner scanner = new Scanner(System.in);
+
+            String regex = "write-your-regex-here";
+
+            String time = scanner.nextLine();
+            System.out.println(time.matches(regex) ? "YES" : "NO");
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/4342#comment
+status: Failed
+feedback:
+  message: |
+    Failed test #1 of 17. Wrong answer
+
+    This is a sample test from the problem statement!
+
+    Test input:
+    09:00
+    Correct output:
+    YES
+
+    Your code output:
+    NO
+  time: Fri, 23 Apr 2021 19:10:15 UTC
+record: -1

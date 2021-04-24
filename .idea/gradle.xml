@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="delegatedBuild" value="false" />
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Topics/Hiding and overriding/Publications" />
+            <option value="$PROJECT_DIR$/Topics/Hiding and overriding/Shapes area" />
+            <option value="$PROJECT_DIR$/Topics/Hiding and overriding/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Introduction to generic programming/Pastry packing optimization" />
+            <option value="$PROJECT_DIR$/Topics/Introduction to generic programming/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Polymorphism/Find mistake" />
+            <option value="$PROJECT_DIR$/Topics/Polymorphism/Publication and its subclasses" />
+            <option value="$PROJECT_DIR$/Topics/Polymorphism/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Regexes in programs/Check IP address" />
+            <option value="$PROJECT_DIR$/Topics/Regexes in programs/Check the clock time" />
+            <option value="$PROJECT_DIR$/Topics/Regexes in programs/Illegal identifiers" />
+            <option value="$PROJECT_DIR$/Topics/Regexes in programs/Safe password" />
+            <option value="$PROJECT_DIR$/Topics/Regexes in programs/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Regexes in programs/Vehicle registration number" />
+            <option value="$PROJECT_DIR$/Topics/Static members/Project constants and methods" />
+            <option value="$PROJECT_DIR$/Topics/Static members/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Static members/Time constants" />
+            <option value="$PROJECT_DIR$/Topics/Static members/Too many cats" />
+            <option value="$PROJECT_DIR$/Topics/The Collections Framework overview/Blacklist" />
+            <option value="$PROJECT_DIR$/Topics/The Collections Framework overview/Squares list" />
+            <option value="$PROJECT_DIR$/Topics/The Collections Framework overview/Theory" />
+            <option value="$PROJECT_DIR$/Topics/The List interface/Backward indexes" />
+            <option value="$PROJECT_DIR$/Topics/The List interface/Count the value occurrences" />
+            <option value="$PROJECT_DIR$/Topics/The List interface/The longest string in the list" />
+            <option value="$PROJECT_DIR$/Topics/The List interface/Theory" />
+            <option value="$PROJECT_DIR$/Topics/The Map interface/Counting words" />
+            <option value="$PROJECT_DIR$/Topics/The Map interface/Creating a map" />
+            <option value="$PROJECT_DIR$/Topics/The Map interface/Displaying pairs" />
+            <option value="$PROJECT_DIR$/Topics/The Map interface/Modifying a map" />
+            <option value="$PROJECT_DIR$/Topics/The Map interface/Theory" />
+            <option value="$PROJECT_DIR$/Topics/The Map interface/Tricky sub-maps" />
+            <option value="$PROJECT_DIR$/Topics/The Set interface/Creating a set" />
+            <option value="$PROJECT_DIR$/Topics/The Set interface/Output elements" />
+            <option value="$PROJECT_DIR$/Topics/The Set interface/Removing elements" />
+            <option value="$PROJECT_DIR$/Topics/The Set interface/Spell checker" />
+            <option value="$PROJECT_DIR$/Topics/The Set interface/Strict superset" />
+            <option value="$PROJECT_DIR$/Topics/The Set interface/Theory" />
+            <option value="$PROJECT_DIR$/Topics/The keyword super/Bank account" />
+            <option value="$PROJECT_DIR$/Topics/The keyword super/Employees" />
+            <option value="$PROJECT_DIR$/Topics/The keyword super/Theory" />
+            <option value="$PROJECT_DIR$/Web Quiz Engine/task" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
