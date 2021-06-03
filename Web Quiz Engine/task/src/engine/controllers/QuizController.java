@@ -1,7 +1,7 @@
 package engine.controllers;
 
-import engine.Answer;
-import engine.Quiz;
+import engine.entity.Answer;
+import engine.entity.Quiz;
 import engine.QuizNotFoundException;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;

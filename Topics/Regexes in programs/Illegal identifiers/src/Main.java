@@ -7,8 +7,7 @@ public class Main {
 
         int numberOfVariables = Integer.parseInt(scanner.nextLine());
 
-        String regex = "[a-zA-Z]|[0-9]|-";
-        String regex1 = ""
+        String regex = "write-your-regex-here";
 
         for (int i = 0; i < numberOfVariables; i++) {
             String identifier = scanner.nextLine();

@@ -3,7 +3,7 @@ hyperskill_project:
   ide_files: https://stepik.org/media/attachments/lesson/287312/additional_files.json
   is_template_based: false
   use_ide: true
-update_date: Sat, 24 Apr 2021 17:23:16 UTC
+update_date: Thu, 03 Jun 2021 19:13:29 UTC
 stages:
 - id: 504
   step: 8252
@@ -25,12 +25,12 @@ stages:
   is_completed: false
 topics:
   0:
+  - title: JVM, JRE, and JDK
+    theory_id: 3499
   - title: Immutability
     theory_id: 7929
   - title: Units of information
     theory_id: 6865
-  - title: Introduction to operating systems
-    theory_id: 9704
   - title: IDE
     theory_id: 10996
   - title: Computer algorithms
@@ -53,20 +53,32 @@ topics:
     theory_id: 6752
   - title: REST
     theory_id: 7834
+  - title: HTML basics
+    theory_id: 6434
+  - title: Tags and attributes
+    theory_id: 7536
+  - title: HTML page structure
+    theory_id: 6491
   - title: Introduction to Spring boot
     theory_id: 7944
+  - title: Postman
+    theory_id: 8512
+  - title: Introduction to operating systems
+    theory_id: 9704
   - title: Getting started with Spring Boot
     theory_id: 6336
   - title: Basic project structure
     theory_id: 6339
-  - title: Rest controller
-    theory_id: 7015
-  - title: Postman
-    theory_id: 8512
-  - title: Introduction to OOP
-    theory_id: 3614
+  - title: Introduction to Spring Web MVC
+    theory_id: 13611
+  - title: Getting data from REST
+    theory_id: 13287
+  - title: Posting and deleting data via REST
+    theory_id: 13292
   - title: External resources
     theory_id: 6216
+  - title: Computer programming
+    theory_id: 8739
   - title: Introduction to Java
     theory_id: 3500
   - title: Basic literals
@@ -85,6 +97,8 @@ topics:
     theory_id: 3513
   - title: Scanning the input
     theory_id: 9055
+  - title: Introduction to OOP
+    theory_id: 3614
   - title: Arithmetic operations
     theory_id: 3519
   - title: Integer types and operations
@@ -111,8 +125,6 @@ topics:
     theory_id: 3504
   - title: Write, compile, and run
     theory_id: 3739
-  - title: JVM, JRE, and JDK
-    theory_id: 3499
   - title: Errors in programs
     theory_id: 3536
   - title: What is an exception
@@ -133,12 +145,6 @@ topics:
     theory_id: 8504
   - title: Frameworks
     theory_id: 6701
-  - title: Command line overview
-    theory_id: 8977
-  - title: Parameters and options
-    theory_id: 9746
-  - title: Gradle basics
-    theory_id: 5075
   - title: Calling a method
     theory_id: 10973
   - title: Declaring a method
@@ -161,22 +167,34 @@ topics:
     theory_id: 3523
   - title: Final variables
     theory_id: 7427
+  - title: IntelliJ IDEA
+    theory_id: 3801
+  - title: Command line overview
+    theory_id: 8977
+  - title: Parameters and options
+    theory_id: 9746
   - title: Java Archive
     theory_id: 4311
+  - title: Gradle basics
+    theory_id: 5075
   - title: Basic project with Gradle
     theory_id: 5077
   - title: Building apps using Gradle
     theory_id: 7917
   - title: Dependency management
     theory_id: 5076
-  - title: IntelliJ IDEA
-    theory_id: 3801
   - title: Introduction to generic programming
     theory_id: 3492
+  - title: Generics and Object
+    theory_id: 3493
   - title: What are collections
     theory_id: 3770
+  - title: The Collections Framework overview
+    theory_id: 3624
   - title: ArrayList
     theory_id: 3567
+  - title: The List interface
+    theory_id: 3581
   - title: Defining classes
     theory_id: 3618
   - title: Constructor
@@ -195,6 +213,12 @@ topics:
     theory_id: 3583
   - title: The keyword super
     theory_id: 3588
+  - title: Protected modifier
+    theory_id: 6692
+  - title: Referencing subclass objects
+    theory_id: 3585
+  - title: The Object class
+    theory_id: 3596
   - title: Annotations basics
     theory_id: 3622
   - title: Objects
@@ -205,39 +229,29 @@ topics:
     theory_id: 3534
   - title: Hiding and overriding
     theory_id: 3572
-  1:
-  - title: Passing JSON to server
-    theory_id: 7165
-  - title: Beans and components
-    theory_id: 7353
-  - title: 'Hashing: overview'
-    theory_id: 9831
-  - title: Hash table
-    theory_id: 5364
-  - title: Hierarchy of exceptions
-    theory_id: 3570
-  - title: Exception handling
-    theory_id: 3552
-  - title: Generics and Object
-    theory_id: 3493
-  - title: The Collections Framework overview
-    theory_id: 3624
-  - title: The List interface
-    theory_id: 3581
-  - title: The Set interface
-    theory_id: 3575
-  - title: The Map interface
-    theory_id: 3558
-  - title: Protected modifier
-    theory_id: 6692
-  - title: Referencing subclass objects
-    theory_id: 3585
-  - title: The Object class
-    theory_id: 3596
   - title: Polymorphism
     theory_id: 3587
   - title: Interface
     theory_id: 3615
+  1:
+  - title: 'Hashing: overview'
+    theory_id: 9831
+  - title: Hash function
+    theory_id: 10878
+  - title: Hash table
+    theory_id: 13054
+  - title: Beans and components
+    theory_id: 7353
+  - title: Handling requests with bodies
+    theory_id: 13334
+  - title: Hierarchy of exceptions
+    theory_id: 3570
+  - title: Exception handling
+    theory_id: 3552
+  - title: The Set interface
+    theory_id: 3575
+  - title: The Map interface
+    theory_id: 3558
   2:
   - title: Exception handling
     theory_id: 8780
@@ -268,10 +282,26 @@ topics:
     theory_id: 8771
   - title: JPA Relationships
     theory_id: 8936
+  - title: CRUD Repositories
+    theory_id: 9536
   - title: Data and object mapping
     theory_id: 8262
   - title: Object-Relational Mapping (ORM)
     theory_id: 8312
+  - title: Lambda expressions
+    theory_id: 11635
+  - title: Method references
+    theory_id: 3620
+  - title: Functional interfaces
+    theory_id: 11636
+  - title: Standard functional interfaces
+    theory_id: 3623
+  - title: Optional
+    theory_id: 9699
+  - title: Default methods
+    theory_id: 11354
+  - title: Anonymous classes
+    theory_id: 11896
   5:
   - title: Lambda expressions
     theory_id: 11635
