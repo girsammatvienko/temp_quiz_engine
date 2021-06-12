@@ -9,6 +9,9 @@ import javax.persistence.Id;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
+import java.util.ArrayList;
+import java.util.List;
+
 @Entity
 public class Quiz {
     @Id
@@ -26,20 +29,20 @@ public class Quiz {
     private String[] options;
 
     @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
-    private int[] answer;
+    private List<Integer> answer;
 
     public Quiz() {
-
+        this.answer = new ArrayList<>();
     }
 
     public Quiz(String title, String text, String[] options) {
         this.title = title;
         this.text = text;
         this.options = options;
-        this.answer = new int[0];
+        this.answer = new ArrayList<Integer>();
     }
 
-    public Quiz(String title, String text, String[] options, int[] answer) {
+    public Quiz(String title, String text, String[] options, List<Integer> answer) {
         this.title = title;
         this.text = text;
         this.options = options;
@@ -70,10 +73,14 @@ public class Quiz {
 
     public void setOptions(String[] options) { this.options = options; }
     @JsonIgnore
-    public int[] getAnswer() { return answer; }
+    public List<Integer> getAnswer() { return answer; }
     @JsonProperty
-    public void setAnswer(int[] answer) { this.answer = answer; }
+    public void setAnswer(List<Integer> answer) { this.answer = answer; }
 
     public int getId() { return id; }
+
+    @JsonIgnore
+    public int getAnswersAmount() {
+        return answer.size();}
 
 }

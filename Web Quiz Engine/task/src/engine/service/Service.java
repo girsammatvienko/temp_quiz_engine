@@ -30,16 +30,11 @@ public class Service {
     public Solving solveQuiz(int id, Answer answer) throws QuizNotFoundException {
         boolean success = false;
         Quiz quiz = repository.getElementById(id);
-        int[] rightAnswers = quiz.getAnswer();
+        int[] rightAnswers = convertListToArray(quiz.getAnswer());
         int[] userAnswers = convertListToArray(answer.getAnswer());
-        if(rightAnswers != null)
         Arrays.sort(rightAnswers);
-        if(userAnswers != null)
         Arrays.sort(userAnswers);
-        System.out.print("Right answers: ");
-        printArray(rightAnswers);
         System.out.print("User answers: ");
-        printArray(userAnswers);
         String feedback = "Wrong answer! Please, try again.";
 
         if(isEqual(rightAnswers, userAnswers)) {
@@ -60,28 +55,6 @@ public class Service {
         }
         return true;
     }
-    private void printArray(int[] arr) {
-        System.out.print("[");
-        for(int i = 0;i < arr.length;i++) {
-            System.out.print(arr[i] + " ");
-        }
-        System.out.println("]");
-    }
-
-    private boolean isRightAnswer(Quiz quiz, Answer answers) {
-        List<Integer> quizAnswers = convertArrayToList(quiz.getAnswer());
-        List<Integer> givenAnswers = answers.getAnswer();
-        int matches = intersection(convertListToArray(quizAnswers),
-                convertListToArray(givenAnswers)).length;
-        return (matches == answers.getAmountOfAnswers());
-    }
-
-    public static int[] intersection(int[] a, int[] b) {
-        return Arrays.stream(a)
-                .distinct()
-                .filter(x -> Arrays.stream(b).anyMatch(y -> y == x))
-                .toArray();
-    }
 
     private List<Integer> convertArrayToList(int[] arr) {
         List<Integer> list = new ArrayList<>();
@@ -95,6 +68,7 @@ public class Service {
         for(int i = 0;i < list.size();i++) {
             resultArray[i] = list.get(i);
         }
+        System.out.println("asd:" +resultArray.length);
         return resultArray;
     }
 
