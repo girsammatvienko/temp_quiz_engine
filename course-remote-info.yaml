@@ -3,7 +3,7 @@ hyperskill_project:
   ide_files: https://stepik.org/media/attachments/lesson/287312/additional_files.json
   is_template_based: false
   use_ide: true
-update_date: Thu, 03 Jun 2021 19:13:29 UTC
+update_date: Sat, 12 Jun 2021 07:12:49 UTC
 stages:
 - id: 504
   step: 8252
@@ -255,7 +255,7 @@ topics:
   2:
   - title: Exception handling
     theory_id: 8780
-  - title: Bean Validation
+  - title: Bean validation
     theory_id: 9355
   - title: Regexps basics
     theory_id: 7580
@@ -280,9 +280,9 @@ topics:
     theory_id: 8762
   - title: Introduction to JPA
     theory_id: 8771
-  - title: JPA Relationships
+  - title: JPA relationships
     theory_id: 8936
-  - title: CRUD Repositories
+  - title: CRUD repositories
     theory_id: 9536
   - title: Data and object mapping
     theory_id: 8262

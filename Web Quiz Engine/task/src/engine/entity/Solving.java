@@ -1,4 +1,4 @@
-package engine;
+package engine.entity;
 
 public class Solving {
     private boolean success;

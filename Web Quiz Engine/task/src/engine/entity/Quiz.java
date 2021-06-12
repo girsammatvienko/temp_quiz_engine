@@ -3,29 +3,40 @@ package engine.entity;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-import javax.validation.constraints.Min;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
-
+@Entity
 public class Quiz {
-    public int id = 1;
-    private int personalId;
+    @Id
+    @GeneratedValue
+    private int id;
+
     @NotBlank
     private String title;
+
     @NotBlank
     private String text;
+
     @Size(min = 2)
     @NotNull
     private String[] options;
+
     @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
     private int[] answer;
+
     public Quiz() {
+
     }
+
     public Quiz(String title, String text, String[] options) {
         this.title = title;
         this.text = text;
         this.options = options;
+        this.answer = new int[0];
     }
 
     public Quiz(String title, String text, String[] options, int[] answer) {
@@ -51,6 +62,8 @@ public class Quiz {
         this.text = text;
     }
 
+    public void setId(int id) { this.id = id; }
+
     public String[] getOptions() {
         return options;
     }
@@ -63,5 +76,4 @@ public class Quiz {
 
     public int getId() { return id; }
 
-    public void setId(int id) { this.id = id; }
 }
